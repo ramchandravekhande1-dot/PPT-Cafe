@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PPT Cafe – Professional Presentations</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            margin: 0;
+        }
+
+        header {
+            background-color: #1e90ff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 15px;
+        }
+
+        .card {
+            background: white;
+            padding: 15px;
+            margin: 15px auto;
+            max-width: 600px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #1e90ff;
+        }
+
+        .price {
+            background: #fff3cd;
+            padding: 20px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 8px;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .payment, .contact {
+            background: #eaf3ff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .btn {
+            background: #1e90ff;
+            color: white;
+            padding: 12px 22px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 8px;
+            font-size: 16px;
+        }
+
+        .whatsapp {
+            background: #25D366;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">☕ PPT Cafe</div>
+    <p>Professional PowerPoint Presentations</p>
+</header>
+
+<section>
+    <div class="card">
+        <h2>📊 What We Offer</h2>
+        <ul>
+            <li>School & College PPTs</li>
+            <li>Business Presentations</li>
+            <li>Project & Seminar PPTs</li>
+            <li>Custom-designed Slides</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>⏱ Time Taken</h2>
+        <p><strong>Delivery Time:</strong> 1 Hour (after confirmation)</p>
+    </div>
+</section>
+
+<section>
+    <div class="price">
+        💰 Price: ₹70 per slide
+    </div>
+</section>
+
+<section class="payment">
+    <h2>💳 Payment</h2>
+    <p>Google Pay • PhonePe • Paytm • UPI</p>
+    <p><strong>UPI ID:</strong> pptcafe@upi</p>
+</section>
+
+<section class="contact">
+    <h2>📞 Order Now</h2>
+    <p><strong>Phone:</strong> 8208300248</p>
+
+    <a href="tel:+918208300248" class="btn">📞 Call</a>
+
+    <a href="https://wa.me/918208300248?text=Hello%20PPT%20Cafe,%20I%20want%20to%20order%20a%20PPT"
+       class="btn whatsapp">💬 WhatsApp Order</a>
+</section>
+
+<footer>
+    <p>© 2026 PPT Cafe | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
